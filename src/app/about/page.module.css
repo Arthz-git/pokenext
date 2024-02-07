@@ -1,0 +1,33 @@
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	height: 80vh;
+
+	padding: 1em;
+
+	background-color: #f3f3f3;
+}
+
+.maincard {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	width: 50%;
+
+	background-color: #fff;
+
+	padding: 3em;
+
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+}
+
+.container span {
+	text-align: center;
+
+	margin-top: 1em;
+}

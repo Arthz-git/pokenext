@@ -1,0 +1,54 @@
+.pokecard_link {
+	margin-right: 1.5em;
+	margin-bottom: 1.5em;
+}
+
+.pokecard {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	width: 275px;
+	height: 500px;
+
+	background-color: #fff;
+
+	border: 1px solid #4b4a4a;
+	border-radius: 8px;
+
+	cursor: pointer;
+	transition: 0.1s;
+}
+
+.pokecard:hover {
+	border-width: 4px;
+}
+
+.pokecard .avatar {
+	background-color: rgba(0, 0, 0, 0.1);
+
+	padding: 1em;
+	margin-bottom: 1em;
+
+	border-radius: 999px;
+}
+
+.pokecard .row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+	margin-top: 0.5em;
+}
+
+.row div:first-child {
+	margin-right: 1em;
+}
+
+.pokecard .title {
+	text-transform: capitalize;
+
+	margin-bottom: 1em;
+}
